@@ -1,4 +1,9 @@
-rom surfer import Brain
+#!/usr/bin/env python
+
+# must first enter: sudo easy_install pysurfer
+
+import vtk
+from surfer import Brain
 
 print(__doc__)
 
