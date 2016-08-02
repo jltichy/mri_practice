@@ -29,4 +29,4 @@ img.get_data_dtype() == np.dtype(np.int16)
 img.header.get_xyzt_units()
 
 #nib.save(img, os.path.join('build','test4d.nii.gz'))
-nib.save(img, 'image_result.gz')
+nib.save(img, 'image_result.nii.gz')
